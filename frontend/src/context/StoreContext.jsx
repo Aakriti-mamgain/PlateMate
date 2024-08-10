@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "plate-mate-4cvu.vercel.app"
+  const url = "https://platemate-backend-0dkp.onrender.com"
   const [token,setToken] = useState("");
   const [food_list,setFoodList] = useState([]);
 
